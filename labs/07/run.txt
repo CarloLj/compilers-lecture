@@ -1,0 +1,7 @@
+sudo apt-get install flex
+sudo apt-get install bison
+sudo apt-get install libcurl4-openssl-dev
+sudo apt-get install libjson-c-dev
+lex chatbot.l
+yacc -d chatbot.y
+cc lex.yy.c y.tab.c -o chatbot -ll -lfl -lcurl -ljson-c
