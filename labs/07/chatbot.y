@@ -195,7 +195,7 @@ void get_pokemon() {
 }
 
 int main() {
-    printf("Chatbot: Hi! You can greet me, ask for the time, ask for a pokemon, ask for a quote, or say goodbye.\n");
+    printf("Chatbot: Hi! You can greet me, ask for the time, ask for a pokemon, ask for a joke, or say goodbye.\n");
     while (yyparse() == 0) {
         // Loop until end of input
     }
